@@ -1,5 +1,5 @@
 # 🛡️ Automated Security & Mutation Audit Log
-Generated on: Thu Oct  1 08:36:00 UTC 2026
+Generated on: Fri Oct  2 08:11:54 UTC 2026
 ---
 ## 📦 Dependency License & Advisory Checks (cargo-deny)
 ```text
@@ -9,13 +9,13 @@ Generated on: Thu Oct  1 08:36:00 UTC 2026
 [0m[36m20[0m [0m[36m│[0m [0m[31munlicensed[0m = "deny"
    [0m[36m│[0m [0m[31m━━━━━━━━━━[0m
 
-2026-10-01 08:36:00 [[31mERROR[0m] failed to validate configuration file /home/runner/work/PropChain-contract/PropChain-contract/deny.toml[0m
+2026-10-02 08:11:54 [[31mERROR[0m] failed to validate configuration file /home/runner/work/PropChain-contract/PropChain-contract/deny.toml[0m
 ```
 ---
 ## 🔍 Vulnerability Advisory Scans (cargo-audit)
 ```text
 [0m[0m[1m[32m    Fetching[0m advisory database from `https://github.com/RustSec/advisory-db.git`
-[0m[0m[1m[32m      Loaded[0m 1278 security advisories (from /home/runner/.cargo/advisory-db)
+[0m[0m[1m[32m      Loaded[0m 1279 security advisories (from /home/runner/.cargo/advisory-db)
 [0m[0m[1m[32m    Updating[0m crates.io index
 [0m[0m[1m[32m    Scanning[0m Cargo.lock for vulnerabilities (856 crate dependencies)
 [0m[0m[1m[31mCrate:    [0m h2
@@ -225,12 +225,12 @@ workspace: /home/runner/work/PropChain-contract/PropChain-contract/Cargo.toml
 [1m[92m   Compiling[0m proc-macro2 v1.0.106
 [1m[92m   Compiling[0m unicode-ident v1.0.24
 [1m[92m   Compiling[0m quote v1.0.45
-[1m[92m   Compiling[0m hashbrown v0.17.0
 [1m[92m   Compiling[0m equivalent v1.0.2
+[1m[92m   Compiling[0m hashbrown v0.17.0
 [1m[92m   Compiling[0m serde_core v1.0.228
 [1m[92m   Compiling[0m serde v1.0.228
-[1m[92m   Compiling[0m rustversion v1.0.22
 [1m[92m   Compiling[0m unicode-xid v0.2.6
+[1m[92m   Compiling[0m rustversion v1.0.22
 [1m[92m   Compiling[0m indexmap v2.14.0
 [1m[92m   Compiling[0m syn v2.0.117
 [1m[92m   Compiling[0m winnow v1.0.2
@@ -244,11 +244,11 @@ workspace: /home/runner/work/PropChain-contract/PropChain-contract/Cargo.toml
 [1m[92m   Compiling[0m cfg-if v1.0.4
 [1m[92m   Compiling[0m proc-macro-crate v3.5.0
 [1m[92m   Compiling[0m zmij v1.0.21
-[1m[92m   Compiling[0m once_cell v1.21.4
-[1m[92m   Compiling[0m serde_json v1.0.149
-[1m[92m   Compiling[0m strsim v0.10.0
-[1m[92m   Compiling[0m ident_case v1.0.1
 [1m[92m   Compiling[0m fnv v1.0.7
+[1m[92m   Compiling[0m once_cell v1.21.4
+[1m[92m   Compiling[0m strsim v0.10.0
+[1m[92m   Compiling[0m serde_json v1.0.149
+[1m[92m   Compiling[0m ident_case v1.0.1
 [1m[92m   Compiling[0m konst_macro_rules v0.2.19
 [1m[92m   Compiling[0m konst v0.2.20
 [1m[92m   Compiling[0m parity-scale-codec v3.7.5
@@ -258,23 +258,23 @@ workspace: /home/runner/work/PropChain-contract/PropChain-contract/Cargo.toml
 [1m[92m   Compiling[0m byte-slice-cast v1.2.3
 [1m[92m   Compiling[0m winnow v0.5.40
 [1m[92m   Compiling[0m serde_derive v1.0.228
-[1m[92m   Compiling[0m parity-scale-codec-derive v3.7.5
 [1m[92m   Compiling[0m impl-trait-for-tuples v0.2.3
+[1m[92m   Compiling[0m parity-scale-codec-derive v3.7.5
 [1m[92m   Compiling[0m darling_core v0.14.4
 [1m[92m   Compiling[0m derive_more-impl v1.0.0
 [1m[92m   Compiling[0m scale-info-derive v2.11.6
 [1m[92m   Compiling[0m toml_datetime v0.6.11
+[1m[92m   Compiling[0m toml_edit v0.19.15
 [1m[92m   Compiling[0m derive_more v0.99.20
 [1m[92m   Compiling[0m darling_macro v0.14.4
-[1m[92m   Compiling[0m toml_edit v0.19.15
 [1m[92m   Compiling[0m darling v0.14.4
 [1m[92m   Compiling[0m serde_derive_internals v0.29.1
 [1m[92m   Compiling[0m schemars v0.8.22
 [1m[92m   Compiling[0m itoa v1.0.18
 [1m[92m   Compiling[0m schemars_derive v0.8.22
+[1m[92m   Compiling[0m proc-macro-crate v1.3.1
 [1m[92m   Compiling[0m dyn-clone v1.0.20
 [1m[92m   Compiling[0m typenum v1.20.0
-[1m[92m   Compiling[0m proc-macro-crate v1.3.1
 [1m[92m   Compiling[0m smallvec v1.15.1
 [1m[92m   Compiling[0m scale-encode-derive v0.6.0
 [1m[92m   Compiling[0m scale-decode-derive v0.11.1
@@ -284,24 +284,24 @@ workspace: /home/runner/work/PropChain-contract/PropChain-contract/Cargo.toml
 [1m[92m   Compiling[0m libc v0.2.186
 [1m[92m   Compiling[0m scale-info v2.11.6
 [1m[92m   Compiling[0m regex-automata v0.4.14
-[1m[92m   Compiling[0m block-buffer v0.10.4
 [1m[92m   Compiling[0m crypto-common v0.1.7
+[1m[92m   Compiling[0m block-buffer v0.10.4
 [1m[92m   Compiling[0m scale-type-resolver v0.1.1
 [1m[92m   Compiling[0m serde_spanned v0.6.9
-[1m[92m   Compiling[0m subtle v2.6.1
-[1m[92m   Compiling[0m toml_write v0.1.2
 [1m[92m   Compiling[0m zerocopy v0.8.48
 [1m[92m   Compiling[0m autocfg v1.5.0
+[1m[92m   Compiling[0m toml_write v0.1.2
 [1m[92m   Compiling[0m winnow v0.7.15
-[1m[92m   Compiling[0m regex v1.12.3
-[1m[92m   Compiling[0m num-traits v0.2.19
+[1m[92m   Compiling[0m subtle v2.6.1
 [1m[92m   Compiling[0m digest v0.10.7
+[1m[92m   Compiling[0m num-traits v0.2.19
 [1m[92m   Compiling[0m getrandom v0.2.17
 [1m[92m   Compiling[0m same-file v1.0.6
 [1m[92m   Compiling[0m shlex v1.3.0
 [1m[92m   Compiling[0m find-msvc-tools v0.1.9
-[1m[92m   Compiling[0m cc v1.2.61
+[1m[92m   Compiling[0m regex v1.12.3
 [1m[92m   Compiling[0m toml_edit v0.22.27
+[1m[92m   Compiling[0m cc v1.2.61
 [1m[92m   Compiling[0m walkdir v2.5.0
 [1m[92m   Compiling[0m rand_core v0.6.4
 [1m[92m   Compiling[0m scale-bits v0.5.0
@@ -310,33 +310,33 @@ workspace: /home/runner/work/PropChain-contract/PropChain-contract/Cargo.toml
 [1m[92m   Compiling[0m semver v1.0.28
 [1m[92m   Compiling[0m common-path v1.0.0
 [1m[92m   Compiling[0m termcolor v1.4.1
-[1m[92m   Compiling[0m rustc_version v0.4.1
-[1m[92m   Compiling[0m scale-decode v0.11.1
-[1m[92m   Compiling[0m secp256k1-sys v0.9.2
 [1m[92m   Compiling[0m toml v0.8.23
-[1m[92m   Compiling[0m scale-encode v0.6.0
+[1m[92m   Compiling[0m rustc_version v0.4.1
+[1m[92m   Compiling[0m secp256k1-sys v0.9.2
+[1m[92m   Compiling[0m scale-decode v0.11.1
 [1m[92m   Compiling[0m docify_macros v0.2.9
+[1m[92m   Compiling[0m scale-encode v0.6.0
 [1m[92m   Compiling[0m zeroize_derive v1.4.3
 [1m[92m   Compiling[0m ink_prelude v5.1.1
 [1m[92m   Compiling[0m paste v1.0.15
-[1m[92m   Compiling[0m xxhash-rust v0.8.15
-[1m[92m   Compiling[0m keccak v0.1.6
-[1m[92m   Compiling[0m linkme v0.3.36
 [1m[92m   Compiling[0m cpufeatures v0.2.17
-[1m[92m   Compiling[0m docify v0.2.9
+[1m[92m   Compiling[0m xxhash-rust v0.8.15
+[1m[92m   Compiling[0m linkme v0.3.36
+[1m[92m   Compiling[0m keccak v0.1.6
 [1m[92m   Compiling[0m zeroize v1.8.2
-[1m[92m   Compiling[0m integer-sqrt v0.1.5
+[1m[92m   Compiling[0m docify v0.2.9
 [1m[92m   Compiling[0m ink_primitives v5.1.1
+[1m[92m   Compiling[0m integer-sqrt v0.1.5
 [1m[92m   Compiling[0m curve25519-dalek v4.1.3
+[1m[92m   Compiling[0m ppv-lite86 v0.2.21
 [1m[92m   Compiling[0m log v0.4.29
 [1m[92m   Compiling[0m lazy_static v1.5.0
-[1m[92m   Compiling[0m ppv-lite86 v0.2.21
+[1m[92m   Compiling[0m rand_chacha v0.3.1
 [1m[92m   Compiling[0m static_assertions v1.1.0
 [1m[92m   Compiling[0m sp-arithmetic v26.1.0
 [1m[92m   Compiling[0m Inflector v0.11.4
-[1m[92m   Compiling[0m rand_chacha v0.3.1
-[1m[92m   Compiling[0m bounded-collections v0.2.4
 [1m[92m   Compiling[0m rand v0.8.6
+[1m[92m   Compiling[0m bounded-collections v0.2.4
 [1m[92m   Compiling[0m sha2 v0.10.9
 [1m[92m   Compiling[0m impl-serde v0.4.0
 [1m[92m   Compiling[0m sp-debug-derive v14.0.0
@@ -344,8 +344,8 @@ workspace: /home/runner/work/PropChain-contract/PropChain-contract/Cargo.toml
 [1m[92m   Compiling[0m bitflags v1.3.2
 [1m[92m   Compiling[0m either v1.15.0
 [1m[92m   Compiling[0m byteorder v1.5.0
-[1m[92m   Compiling[0m merlin v3.0.0
 [1m[92m   Compiling[0m itertools v0.12.1
+[1m[92m   Compiling[0m merlin v3.0.0
 [1m[92m   Compiling[0m pallet-contracts-uapi v9.0.0
 [1m[92m   Compiling[0m sp-weights v31.1.0
 [1m[92m   Compiling[0m ink_metadata v5.1.1
@@ -361,8 +361,8 @@ workspace: /home/runner/work/PropChain-contract/PropChain-contract/Cargo.toml
 [1m[92m   Compiling[0m arrayref v0.3.9
 [1m[92m   Compiling[0m array-bytes v6.2.3
 [1m[92m   Compiling[0m schnorrkel v0.11.5
-[1m[92m   Compiling[0m const_env v0.1.5
 [1m[92m   Compiling[0m staging-xcm v11.0.0
+[1m[92m   Compiling[0m const_env v0.1.5
 [1m[92m   Compiling[0m ink_ir v5.1.1
 [1m[92m   Compiling[0m ink_engine v5.1.1
 [1m[92m   Compiling[0m ink_storage_traits v5.1.1
@@ -377,7 +377,7 @@ workspace: /home/runner/work/PropChain-contract/PropChain-contract/Cargo.toml
 [1m[92m   Compiling[0m ink v5.1.1
 [1m[92m   Compiling[0m propchain-traits v1.0.0 (/home/runner/work/PropChain-contract/PropChain-contract/contracts/traits)
 [1m[92m   Compiling[0m propchain-bridge v1.0.0 (/home/runner/work/PropChain-contract/PropChain-contract/contracts/bridge)
-[1m[92m    Finished[0m `test` profile [optimized + debuginfo] target(s) in 1m 02s
+[1m[92m    Finished[0m `test` profile [optimized + debuginfo] target(s) in 58.76s
 [1m[92m     Running[0m unittests src/lib.rs (target/debug/build/propchain-bridge/092a5971ba9d6ae2/out/propchain_bridge-092a5971ba9d6ae2)
 
 running 4 tests
@@ -457,12 +457,12 @@ workspace: /home/runner/work/PropChain-contract/PropChain-contract/Cargo.toml
 [1m[92m   Compiling[0m unarray v0.1.4
 [1m[92m   Compiling[0m bitflags v2.11.1
 [1m[92m   Compiling[0m rand_core v0.9.5
-[1m[92m   Compiling[0m rand v0.9.4
 [1m[92m   Compiling[0m rand_xorshift v0.4.0
 [1m[92m   Compiling[0m rand_chacha v0.9.0
+[1m[92m   Compiling[0m rand v0.9.4
 [1m[92m   Compiling[0m proptest v1.11.0
 [1m[92m   Compiling[0m propchain-dex v1.0.0 (/home/runner/work/PropChain-contract/PropChain-contract/contracts/dex)
-[1m[92m    Finished[0m `test` profile [optimized + debuginfo] target(s) in 21.28s
+[1m[92m    Finished[0m `test` profile [optimized + debuginfo] target(s) in 20.35s
 [1m[92m     Running[0m unittests src/lib.rs (target/debug/build/propchain-dex/1cd90d9b3be8a363/out/propchain_dex-1cd90d9b3be8a363)
 
 running 5 tests
